@@ -22,5 +22,9 @@ Excluding below make
 ```bash
 conda create -n xtts-env python=3.11
 conda activate xtts-env
+# Only pick one of the two following
+pip install torch==2.1.1+cu118 torchaudio==2.1.1+cu118 --index-url https://download.pytorch.org/whl/cu118 # For GPU
+pip install torch==2.1.1 torchaudio==2.1.1 # For CPU
 pip install -r requirements.txt
+conda install cudnn
 ```

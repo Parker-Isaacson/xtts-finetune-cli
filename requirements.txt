@@ -1,6 +1,16 @@
-torch>=2.2.0
-torchaudio>=2.2.0
-faster-whisper>=0.10.0
-TTS>=0.22.0
-pandas>=2.2.0
-tqdm>=4.66.0
+# Core
+TTS==0.22.0
+coqui-tts-trainer==0.1.4
+transformers==4.33.0 # Needed for LogitsWarper
+faster-whisper==1.0.3
+pandas==1.5.2
+tqdm==4.67.1
+numpy==1.26.4
+scipy==1.16.1
+soundfile==0.13.1
+soxr==0.5.0.post1
+torchvision==0.16.2
+
+# Optional (but useful for visualization / debugging)
+matplotlib==3.10.5
+librosa==0.11.0
