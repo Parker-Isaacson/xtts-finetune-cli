@@ -17,8 +17,6 @@ This project provides:
 
 ### 1. Install dependencies
 
-Excluding below make 
-
 ```bash
 conda create -n xtts-env python=3.11
 conda activate xtts-env
